@@ -16,6 +16,10 @@
 
 <br>
 
+## 📑주제 선정 참고 사이트
+- [Technical Interview Guidelines for Beginners](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+- [신입 개발자 전공 지식 & 기술 면접 백과사전](https://github.com/gyoogle/tech-interview-for-developer)
+
 ## 🌈Contributors
 
 | **[손영배](https://github.com/dudqo225)** | **[이정훈](https://github.com/person003333)** | **[황정준](https://github.com/DeerGum)** | **[한혜성](https://github.com/Hyesung-Han)** | **[한지희](https://github.com/g2hhh2ee)** |
