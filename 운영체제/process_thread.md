@@ -27,7 +27,7 @@
 
 ### 1. 프로세스란?
 
-![img](images/images%2Fgparkkii%2Fpost%2F3ad2bcba-e652-4213-a10c-78b5a13c95b0%2FKakaoTalk_Photo_2021-01-02-18-02-01.jpeg)
+![img](images/process.jpeg)
 
 - **컴퓨터의 메모리에 적재(load)되어 연속적으로 실행되고 있는 프로그램**
 - 메모리에 올라와 실행되고 있는 프로그램의 **인스턴스(독립적인 개체임)**
@@ -62,7 +62,7 @@
 
 ### 2. 쓰레드란?
 
-![img](images/images%2Fgparkkii%2Fpost%2F5b17f0cb-d2c7-4995-b2dd-f86f58968d2f%2FKakaoTalk_Photo_2021-01-02-18-29-56.jpeg)
+![img](images/thread.jpeg)
 
 - **프로세스 내에서 실행되는 흐름**
 - 프로세스가 할당받은 자원을 이용하는 실행 단위
@@ -141,7 +141,7 @@
 - CPU에서 여러 프로세스를 돌아가면서 작업을 처리하는 과정
 - 동작 중인 프로세스가 대기하면서 해당 프로세스의 상태(Context)를 PCB(Process Control Block)에 보관 → 대기 중인 다음 순서의 프로세스가 동작하면서 이전에 보관했던 프로세스의 상태를 복구한다
 
-![img](images/0JIdPnyekpiI7e_dG.png)
+![img](images/context.png)
 
 <br>
 
@@ -172,7 +172,7 @@
 
 <br>
 
-![img](images/images%2Fgparkkii%2Fpost%2Fbc9b51ee-734b-403b-a036-c6bd84abbc58%2FKakaoTalk_Photo_2021-01-02-18-53-31.jpeg)
+![img](images/multi.jpeg)
 
 #### 멀티 프로세스 대신 멀티 쓰레드 사용하는 이유
 
