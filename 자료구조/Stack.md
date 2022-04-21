@@ -1,0 +1,21 @@
+# Stack
+
+- stack : 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 **LIFO**(Last In First Out) 형식의 자료 구조
+- 특징 
+  - 배열과 달리 상수 시간에 i 번째 항목에 접근 불가
+  - 데이터를 추가하거나 삭제하는 연산은 상수 시간에 가능
+  - 배열처럼 원소들을 하나씩 옆으로 밀어 줄 필요 없음
+- 연산 
+  - 가장 최근에 스택에 추가한 항목 = 가장 먼저 제거될 항목
+  - push(E item) : 해당 item을 top에 삽입
+  - pop : top에 있는 item 삭제O, 해당 item 반환
+  - peek : top에 있는 item 삭제 X, 해당 item 반환
+  - isEmpty : stack이 비어있으면 true, 그렇지 않으면 false 반환
+  - search(Object O) : 해당 Object의 위치 반환, top 위치는 1, 해당 Object가 없으면 -1 반환, O(n)
+- 사용 방법
+  - 웹 브라우저 방문 기록(뒤로 가기)
+  - 실행 취소
+  - 역순 문자열 만들기
+  - 수식의 괄호 검사
+  - 후위 표기법 계산
+  - DFS
