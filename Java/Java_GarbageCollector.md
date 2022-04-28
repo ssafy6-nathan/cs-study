@@ -103,6 +103,18 @@
 - Permanent Generation
     - 프로그램 코드가 올라가는 부분, Code가 모두 로딩되고 나면 거의 일정한 수치를 유지함
 
+### Minor GC, Major GC
+- Young Generation에서 사용하는 GC를 Minor GC라고 함
+    - Copying garbage 알고리즘으로 동작
+        - root에서 그래프순회 객체들을 mark하고 그대로 이동할 메모리 영역에 붙여넣는 방식
+        
+![image](https://user-images.githubusercontent.com/47655983/165769594-9b255c85-161c-4d76-b438-06702f7afc3f.png)
+
+![image](https://user-images.githubusercontent.com/47655983/165769891-aaebc674-0845-42e7-a1cd-ffda4cb96673.png)
+
+- Old Generation에서 사용하는 GC를 Major GC라고 함
+    - Mark ANd Sweep 알고리즘으로 동작
+
 ### GC의 동작
 ![image](https://user-images.githubusercontent.com/47655983/165565058-64e5b0c4-5e32-4a59-bf38-c546d2b1f402.png)
 
