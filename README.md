@@ -36,9 +36,11 @@
 | 2022.04.14 | 이정훈, 황정준 | Array와 List | java exception | |
 | 2022.04.21 | 손영배, 한혜성, 한지희 | Process & Thread | Stack & Queue & Heap | SSR vs CSR |
 | 2022.04.28 | 이정훈, 황정준 | HTTP, HTTPS | java gc | |
-| 2022.05.12 | 한혜성 | TCP UDP | | |
+| 2022.05.26 | 한혜성 | TCP UDP | | |
 | 2022.06.02 | 한지희, 황정준 | 데이터베이스 | 메모리 관리 전략 | |
-| 2022.06.09 | 이정훈, 한혜성 | 동기와 비동기, blocking&nonblocking |  | |
+| 2022.06.09 | 이정훈, 한혜성 | 동기와 비동기, blocking&nonblocking | | |
+| 2022.06.16 | 이정훈, 한혜성 | 동기와 비동기, blocking&nonblocking | | |
+| 2022.06.23 | 이정훈, 한혜성 | 동기와 비동기, blocking&nonblocking | | |
 
 <br>
 
