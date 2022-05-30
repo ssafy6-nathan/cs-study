@@ -22,9 +22,10 @@
 
 ## 🌈Contributors
 
-| **[손영배](https://github.com/dudqo225)** | **[이정훈](https://github.com/person003333)** | **[황정준](https://github.com/DeerGum)** | **[한혜성](https://github.com/Hyesung-Han)** | **[한지희](https://github.com/g2hhh2ee)** |
-| :-----------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| <img src="https://user-images.githubusercontent.com/47655983/156922166-884ce18e-22ae-413d-97c9-93d5aa072d02.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922305-3726e3c9-24ad-4e02-8d31-a9e4f1e0145e.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922316-3daa08a9-072e-482e-9825-7a636972af60.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922329-395e577c-9d2a-49cd-9719-c77184c931e5.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922344-81074208-8874-4d90-b462-392b15472bcd.png" width=130px, height=130px> |
+
+| **[이정훈](https://github.com/person003333)** | **[황정준](https://github.com/DeerGum)** | **[한혜성](https://github.com/Hyesung-Han)** | **[한지희](https://github.com/g2hhh2ee)** |
+| :-----------------: | :-----------------: | :-----------------: | :-----------------: |
+| <img src="https://user-images.githubusercontent.com/47655983/156922305-3726e3c9-24ad-4e02-8d31-a9e4f1e0145e.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922316-3daa08a9-072e-482e-9825-7a636972af60.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922329-395e577c-9d2a-49cd-9719-c77184c931e5.png" width=130px, height=130px> | <img src="https://user-images.githubusercontent.com/47655983/156922344-81074208-8874-4d90-b462-392b15472bcd.png" width=130px, height=130px> |
 
 <br>
 
@@ -35,6 +36,14 @@
 | 2022.04.14 | 이정훈, 황정준 | Array와 List | java exception | |
 | 2022.04.21 | 손영배, 한혜성, 한지희 | Process & Thread | Stack & Queue & Heap | SSR vs CSR |
 | 2022.04.28 | 이정훈, 황정준 | HTTP, HTTPS | java gc | |
-| 2022.05.12 | 손영배, 한혜성, 한지희 | 스케쥴러 | TCP UDP | 데이터베이스 |
-| 2022.06.03 | 이정훈, 황정준 | 동기와 비동기, blocking&nonblocking | 메모리 관리 전략 | |
+| 2022.05.12 | 한혜성 | TCP UDP | | |
+| 2022.06.02 | 한지희, 황정준 | 데이터베이스 | 메모리 관리 전략 | |
+| 2022.06.09 | 이정훈, 한혜성 | 동기와 비동기, blocking&nonblocking |  | |
 
+<br>
+
+## 🏆 명예의 전당 
+
+| **[손영배](https://github.com/dudqo225)** |
+| :-----------------: |
+| <img src="https://user-images.githubusercontent.com/47655983/156922166-884ce18e-22ae-413d-97c9-93d5aa072d02.png" width=130px, height=130px> |
