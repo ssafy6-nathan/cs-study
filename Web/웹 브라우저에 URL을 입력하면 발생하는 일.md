@@ -20,3 +20,25 @@
     HTML 렌더링 → html 이미지, css, js에 임베디드 된 다른 정보들을 가져오는거지.(by 추가적인 요청) 
     
     정적파일들은 브라우저에 캐싱되어 다음에 방문하면 다시 요청을 보내지 않는다.
+
+
+PLUS!
+**URI와 URL의 차이점**
+
+> Uniform Resource Identifier (URI)>  consists of a string of characters used to identify or name a resource on the Internet
+> 
+
+네트워크 상에서 **자원을 식별하기 위한 문자열의 구성**이다. URI는 인터넷에서 요구되는 기본 조건으로써 인터넷 프로토콜에 항상 붙어 다닌다.
+
+> Uniform Resource Locator (URL)>  colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it.
+> 
+
+구어적으로 웹 주소라고 일컫고, 네트워크 상에서 웹 자원의 위치를 지정하는 웹 자원에 대한 참조이다. 즉, 쉽게 말하면 네트워크 상의 **자원의 위치를 나타내는 주소**이다.
+
+### URL은 URI에 포함된다!
+
+1. [https://example.io](https://example.io/) 
+2. [https://example.io/images](https://example.io/images) 
+3. [https://example.io/images/dog.jpeg](https://example.io/images/dog.jpeg) 
+4. [https://example.io/user/123](https://example.io/user/123) 
+5. [https://example.io/profile?id=11](https://example.io/profile?id=11)
