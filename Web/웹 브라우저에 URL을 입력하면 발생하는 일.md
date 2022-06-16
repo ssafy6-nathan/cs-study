@@ -1,3 +1,5 @@
+# 웹 브라우저에 URL을 입력하면 발생하는 일.md
+
 1. 웹 브라우저에 URL 입력
 2. DNS를 통해 브라우저는 도메인 네임의 ip address 찾아본다.
     - 로컬 컴터의 캐시 찾아봐
@@ -22,8 +24,8 @@
     정적파일들은 브라우저에 캐싱되어 다음에 방문하면 다시 요청을 보내지 않는다.
 
 
-PLUS!
-**URI와 URL의 차이점**
+
+# PLUS! **URI와 URL의 차이점**
 
 > Uniform Resource Identifier (URI)>  consists of a string of characters used to identify or name a resource on the Internet
 > 
