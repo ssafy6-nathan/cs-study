@@ -1,10 +1,8 @@
 # **Web Server와 WAS의 차이**
 
-<br>
 
 ## **웹 서버(Web Server)**
 
-<br>
 
 #### 소프트웨어와 하드웨어로 구분된다.
 
@@ -12,14 +10,10 @@
 -  소프트웨어 : 웹 브라우저 클라이언트로부터 HTTP 요청을 받아 정적인 컨텐츠(.html .jpeg .css 등)를 제공하는 컴퓨터 프로그램
 
 <br>
-<br>
-
 
 ## **WAS(Web Application Serve)**
 
 -   WAS는 웹 애플리케이션을 실행시켜 필요한 기능을 수행하고 그 결과를 웹 서버에게 전달하는 일종의 미들웨어를 말한다.
-
-<br>
 
 #### 웹 서버 + 웹 컨테이너
 
@@ -31,18 +25,14 @@
 
 
 <br>
-<br>
 
 # **Web Server와 WAS의 차이** 
 
-<br>
 
 ## **Static Pages와 Dynamic Pages**
 
 ![image](https://user-images.githubusercontent.com/67899393/175442648-79bef683-b93c-4a12-b803-135ea74f56f2.png)
 
-
-<br>
 
 #### Static Pages
 
@@ -59,11 +49,9 @@
 -   개발자는 Servlet에 doGet()을 구현한다.
 
 <br>
-<br>
 
 ## **웹 서버와 WAS 종류**
 
-<br>
 
 #### 웹 서버 종류
 
@@ -79,7 +67,6 @@
 -   JEUS
 -   IBM WebSphere
 
-<br>
 <br>
 
 ## **웹 서버와 WAS 차이**
