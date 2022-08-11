@@ -23,7 +23,8 @@
 
 ## 3. Insertion Sort
 - i번째 원소를 검사할 때 i-1번째부터 0번째까지 비교하며 i번째가 더 작다면 이동하려는 곳부터 i-1까지의 값들을 한 칸씩 뒤로 밀고 해당 인덱스에 i번째 값 삽입
-![](https://velog.velcdn.com/images/hanhs4544/post/73657448-2a90-4222-8d1d-83be3a64bf67/image.png)
+ 
+ ![](https://velog.velcdn.com/images/hanhs4544/post/73657448-2a90-4222-8d1d-83be3a64bf67/image.png)
 - 특징
   - 장점
    	- 정렬하고자 하는 배열의 길이가 적을 경우 알고리즘 자체가 매우 간단하므로 다른 복잡한 정렬 방법보다 유리할 수 있음
