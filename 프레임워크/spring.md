@@ -5,6 +5,10 @@
 - [Spring boot](#spring-boot)
 - [Spring MVC](#spring-mvc)
 - [Filter vs Interceptor](#filter-vs-interceptor)
+- [Spring Bean](#spring-bean)
+- [Spring Security](#spring-security)
+
+
 
 # Web개발에서 자바 진영의 역사
 
@@ -174,3 +178,118 @@ class B {
 - `spring-servlet.xml`에서 설정
 - Controller 마다 Handler가 매핑되어 있는데 권한 체크 등을 핸들러에서 해준다고 하면 Controller가 많아질수록 작성해야하는 코드량이 많아짐 → `Interceptor` 클래스에 위임해서 작업하면 반복되는 코드를 줄일 수 있음
 - Request/Response 객체 조작 불가능
+
+# Spring Bean
+
+- Spring IoC 컨테이너가 관리하는 자바 객체를 Bean이라고 부름
+
+![image](https://user-images.githubusercontent.com/47655983/189898967-599d7f26-27b9-41d7-a263-39d80e7572b4.png)
+
+- 개발자가 만든 자바 객체를 사용하려면 Bean으로 Spring IoC 컨테이너에 등록해야 함
+- Bean 등록 방법
+    - XML 파일에 정의하는 방법
+    - 소스코드에서 어노테이션(`@Bean`, `@Conponent`)을 이용한 방법 (Spring boot)
+    
+    User Controller, User Service, UserRepository 1
+    
+    Notice Service 
+    
+
+## Spring Bean Scope
+
+- Spring은 기본적으로 모든 Bean을 싱글톤으로 생성하여 관리
+    - Spring IoC 컨테이너를 통해 Bean을 주입받으면 언제나 동일한 객체를 받음
+- 하지만 모든 Bean이 싱글톤인 것은 아니고 Bean Scope에 따라 달라짐
+- Bean Scope 종류
+    - singleton
+    - prototype
+    - request
+    - session
+    - application
+    - websocket
+
+### Singleton
+
+- Spring IoC 컨테이너에서 Bean 객체가 딱 한 번만 생성되는 Scope
+- 생성된 하나의 인스턴스는 Single Beans Cache에 저장되고, 해당 Bean에 대한 요청과 참조가 있으면 캐시된 객체를 반환
+- 기본적으로 모든 Bean은 Scope가 명시적으로 지정되지 않으면 Singleton Scope
+
+### Prototype
+
+- 모든 요청에서 새로운 객체를 생성하는 것을 의미
+    - 즉 Prototype Bean은 의존성 관계의 bean에 주입 될 때 새로운 객체가 생성되어 주입 됨
+
+## Web Scope
+
+- Singleton, ProtoType Scope는 스프링 자체에서 제공하는 Scope이고 Request, Session, Application, WebSocket Scope는 Spring MVC Web Application에서 제공하는 Web Scope
+
+### Request
+
+- HTTP 요청 하나가 들어오고 나갈 때까지 유지되는 Scope
+- 각각의 HTTP 요청마다 별도의 Bean 객체가 생성되고 관리 됨
+
+### Session
+
+- HTTP Session과 동일한 생명 주기를 가지는 Scope
+
+### Application
+
+- Servlet Context와 동일한 생명 주기를 가지는 Scope
+
+### WebSocket
+
+- WebSocket과 동일한 생명 주기를 가지는 Scope
+
+# Spring Security
+
+- Spring 기반의 어플리케이션 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크
+- 인증과 권한에 대한 부분을 Filter의 흐름에 따라 처리하고 있음
+- 보안 관련해서 체계적으로 많은 옵션을 제공
+    - 개발자가 일일이 보안관련 로직을 작성하지 않아도 됨
+
+![image](https://user-images.githubusercontent.com/47655983/189899116-6d4dc42d-3dc9-4038-baf2-99d10fc0c931.png)
+
+## 인증과 인가
+
+- 인증(Authorization)
+    - 해당 사용자가 본인이 맞는지를 확인하는 절차
+- 인가(Authentication)
+    - 인증된 사용자가 요청한 자원에 접근 가능한지를 결정하는 절차
+    
+    ![image](https://user-images.githubusercontent.com/47655983/189899183-72dc84da-1f8c-4eb5-bbaf-df0ecc6d51ac.png)
+    
+- Spring Security는 기본적으로 인증 절차를 거친 후에 인가 절차를 진행하게 됨
+- 인가 과정에서 해당 리소스에 대한 접근 권한이 있는지 확인함
+- 인증과 인가를 위해 Principal을 아이디로, Credential을 비밀번호로 사용하는 Credential 기반의 인증 방식을 사용
+- Principal(접근 주체)
+    - 보호받는 Resource에 접근하는 대상
+- Credential(비밀번호)
+    - Resource에 접근하는 대상의 비밀번호
+    
+
+## Spring Security 모듈
+
+![image](https://user-images.githubusercontent.com/47655983/189899255-41be0e73-3500-4aa8-8aaf-31c83b2963eb.png)
+
+- SecurityContextHolder
+    - 보안 주체의 세부 정보를 포함하여 응용프로그램의 현재 보안 컨텍스트에 대한 세부 정보를 저장
+    - 기본적으로 `SecurityContextHolder.MODE_INHERITABLETHREADLOCAL` , `SecurityContextHolder.MODE_THREADLOCAL` 방법을 제공
+- SecurityContext
+    - Authentication을 보관하는 역할을 하며, SecurityContext를 통해 Authentication 객체를 꺼내올 수 있음
+- Authentication
+    - 현재 접근하는 주체의 정보와 권한을 담는 인터페이스
+    - Authentication 객체는 Security Context에 저장 됨
+- UsernamePasswordAuthenticationToken
+    - Authentication을 implements한 AbstractAuthenticationToken의 하위 클래스
+    - User ID가 Principal 역할을 하고 Password가 Credential 역할을 함
+- AuthenticationProvider
+    - 실제 인증에 대한 부분을 처리
+    - 인증 전의 Authentication 객체를 받아서 인증이 완료된 객체를 반환하는 역할
+- Authentication Manager
+    - 인증에 대한 부분은 SpringSecurity의 AuthenticationManager를 통해서 처리되는데 실질적으로는 AuthenticationManager에 등록된 AuthenticationProvider에 의해 처리
+    - 인증이 성공하면 2번째 생성자를 이용해 인증이 성공한 객체를 생성하여 Security Context에 저장
+- UserDetails
+    - 인증에 성공하여 생성된 UserDetails 객체는 Authentication 객체를 구현한 UsernamePasswordAuthenticationToken을 생성하기 위해 사용됨
+- UserDetailsService
+    - UserDetails 객체를 반환하는 메소드 단 한개를 가진 인터페이스
+    - 일반적으로 이를 구현한 클래스 내부에 UserRepository를 주입받아 DB와 연결하여 처리함
