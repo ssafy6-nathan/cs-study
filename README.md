@@ -52,7 +52,7 @@
 | 2022.09.08 | 한지희, 황정준, 한혜성 |JavaScript의 [var, let, const](JavaScript/var,%20let,%20const.md) 와 [동기, 비동기](JavaScript/JavaScript의%20동기와%20비동기.md) | Spring Bean, Spring Security | 직렬화 |
 | 2022.09.15 | 이정훈, 한혜성 | [Python GIL](Python/GIL.md) | 원시타입과 참조타입 | |
 | 2022.09.22 | 한지희, 황정준 | [JavaScript 실행 컨텍스트](JavaScript/JavaScript 실행 컨텍스트.md) | Java Collection | |
-| 2022.09.29 | 이정훈, 한혜성, 박기범 | Python GC | 메모리 단편화 |  |
+| 2022.09.29 | 이정훈, 한혜성, 박기범 | Python GC | 메모리 단편화 | 객체 지향  |
 
 <br>
 
