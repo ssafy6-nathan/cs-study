@@ -53,7 +53,7 @@
 | 2022.09.15 | 이정훈, 한혜성 | [Python GIL](Python/GIL.md) | [원시타입과 참조타입](Java/원시타입vs참조타입.md) | |
 | 2022.09.22 | 한지희, 황정준 | [JavaScript 실행 컨텍스트](JavaScript/JavaScript%실행%컨텍스트.md) | Java Collection | |
 | 2022.09.29 | 이정훈, 한혜성, 박기범 | Python GC | [메모리 단편화](운영체제/메모리_단편화.md) | 객체 지향 |
-| 2022.10.13 | 한지희, 박기범 | [JavaScript ES6](JavaScript/JavaScript%ES6.md) | [로드 밸런싱]() |  |
+| 2022.10.13 | 한지희, 박기범 | [JavaScript ES6](JavaScript/JavaScript%ES6.md) | [로드 밸런싱](네트워크/Load%Balancing.md) |  |
 | 2022.10.20 | 이정훈, 한혜성, 황정준 | []() | []() | [JPA]() |
 
 <!--
