@@ -56,9 +56,11 @@
 | 2022.09.22 | 한지희, 황정준 | [JavaScript 실행 컨텍스트](JavaScript/JavaScript%20실행%20컨텍스트.md) | Java Collection | |
 | 2022.09.29 | 이정훈, 한혜성, 박기범 | [Python GC](Python/Python%20GC.md) | [메모리 단편화](운영체제/메모리_단편화.md) | [객체 지향 프로그래밍](Software%20Engineering/객체%20지향%20프로그래밍.md) |
 | 2022.10.13 | 한지희, 박기범 | [JavaScript ES6](JavaScript/JavaScript%20ES6.md) | [로드 밸런싱](네트워크/Load%20Balancing.md) |  |
-| 2022.10.20 | 이정훈, 한혜성, 황정준 | [뮤텍스(Mutex)와 세마포어(Semaphore)](운영체제/뮤텍스(Mutex)와%20세마포어(Semaphore).md) | []() | [JPA]() |
+| 2022.10.20 | 이정훈, 한혜성 | [뮤텍스(Mutex)와 세마포어(Semaphore)](운영체제/뮤텍스(Mutex)와%20세마포어(Semaphore).md) | []() | []() |
 | 2022.10.27 | 한지희, 박기범 | [JavaScript 이벤트 위임](JavaScript/JavaScript%20이벤트%20위임.md) | [정규화](DB/정규화.md) |
-| 2022.11.03 | 이정훈 | []() | []() | []() |
+| 2022.11.03 | 이정훈, 황정준 | [Kotlin](#) | [JPA](#) | []() |
+| 2022.11.10 | 박기범, 한지희, 한혜성 |  |  | 메모리 단편화2 |
+| 2022.11.03 | 이정훈, 황정준 |  |  |  |
 
 <!--
 | 2022. |  | []() | []() | []() |
