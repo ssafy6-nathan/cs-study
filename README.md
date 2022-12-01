@@ -58,7 +58,7 @@
 | 2022.10.13 | 한지희, 박기범 | [JavaScript ES6](JavaScript/JavaScript%20ES6.md) | [로드 밸런싱](네트워크/Load%20Balancing.md) |  |
 | 2022.10.20 | 이정훈, 한혜성 | [뮤텍스(Mutex)와 세마포어(Semaphore)](운영체제/뮤텍스(Mutex)와%20세마포어(Semaphore).md) | []() | []() |
 | 2022.10.27 | 한지희, 박기범 | [JavaScript 이벤트 위임](JavaScript/JavaScript%20이벤트%20위임.md) | [정규화](DB/정규화.md) |
-| 2022.11.03 | 이정훈, 황정준 | [Kotlin](#) | [JPA](#) | []() |
+| 2022.11.03 | 이정훈, 황정준 | [Kotlin](프레임워크/코틀린.md) | [JPA](#) | []() |
 | 2022.11.10 | 박기범, 한지희 | [정렬 1](자료구조/정렬%201.md) | [HTML 1](HTML/HTML%201.md) |
 | 2022.12.01 | 이정훈, 황정준, 한혜성 |  | OAuth | 클라우드 |
 
