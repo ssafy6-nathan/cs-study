@@ -63,7 +63,7 @@
 | 2022.12.01 | 황정준, 한혜성 | OAuth | 클라우드 | |
 | 2022.12.08 | 이정훈, 박기범, 한지희 | [메세지큐](Software%20Engineering/%EB%A9%94%EC%8B%9C%EC%A7%80%20%ED%81%90.md) | | [JavaScript는 어떤 언어인가](JavaScript/JavaScript는%20어떤%20언어인가.md) |
 | 2022.12.29 | 이정훈, 황정준 | [Java Naming Convention](Java/Java_Naming_Convention.md) | [LDAP](네트워크/LDAP.md) | []() |
-| 2023.01.05 | 박기범, 한지희 | [CORS](Web/CORS.md) | []() | []() |
+| 2023.01.05 | 박기범, 한지희 | [CORS](Web/CORS.md) | [HTTP](Web/HTTP.md) | []() |
 
 
 <!--
