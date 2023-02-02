@@ -66,7 +66,7 @@
 | 2023.01.05 | 박기범, 한지희 | [CORS](Web/CORS.md) | [HTTP](Web/HTTP.md) | []() |
 | 2023.01.12 | 이정훈, 황정준 | [자바 스트림](Java/Java_stream.md) | [프로메테우스](인프라/Prometheus.md) | []() |
 | 2023.01.19 | 박기범, 한지희 | [TDD]() | [객체 지향 프로그래밍과 JavaScript](JavaScript/객체%20지향%20프로그래밍과%20JavaScript.md), [JavaScript 클래스](JavaScript/JavaScript%20클래스.md) | []() |
-| 2023.02.02 | 이정훈 황정준 | []() | [Spring Configuration]() | []() |
+| 2023.02.02 | 이정훈 황정준 | []() | [Spring Configuration](프레임워크/spring_configuration.md) | []() |
 
 <!--
 | 2023. |  | []() | []() | []() |
