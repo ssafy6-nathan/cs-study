@@ -68,7 +68,7 @@
 | 2023.01.19 | 박기범, 한지희 | [TDD]() | [객체 지향 프로그래밍과 JavaScript](JavaScript/객체%20지향%20프로그래밍과%20JavaScript.md), [JavaScript 클래스](JavaScript/JavaScript%20클래스.md) | []() |
 | 2023.02.02 | 이정훈 황정준 | []() | [Spring Configuration](프레임워크/spring_configuration.md) | []() |
 | 2023.04.13 | 황정준 | [AWS배포전략](인프라/AWS배포전략.md) | []() | []() |
-| 2023. |  | []() | []() | []() |
+| 2023.04.20 | 이정훈 | [sql 튜닝](DB/sql%20튜닝.pdf) | []() | []() |
 | 2023. |  | []() | []() | []() |
 
 <!--
